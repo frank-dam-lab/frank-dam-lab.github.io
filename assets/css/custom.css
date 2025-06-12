@@ -1,156 +1,24 @@
-/* Frank Dam Lab Custom Colors for Academic Theme */
-
-/* Your custom color palette */
 :root {
-  --primary-teal: #5b9aa0;     /* Main brand color - teal */
-  --light-lavender: #d6d4e0;   /* Light backgrounds */
-  --medium-lavender: #b8a9c9;  /* Hover states, secondary elements */
-  --dark-purple: #622569;      /* Headers, dark accents */
+  --teal: #008080;
+  --light-bg: #f9fdfd;
+  --text-color: #222;
 }
 
-/* Header styling */
-.site-header {
-  background-color: var(--dark-purple) !important;
-  border-bottom: 3px solid var(--primary-teal) !important;
+body {
+  background-color: var(--light-bg);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
 }
 
-.site-header h1 {
-  color: white !important;
-}
-
-.site-header p {
-  color: var(--light-lavender) !important;
-}
-
-/* Navigation links */
-.site-nav ul li a {
-  color: white !important;
-  background-color: transparent !important;
-  border: 1px solid transparent !important;
-  transition: all 0.3s ease !important;
-}
-
-.site-nav ul li a:hover {
-  background-color: var(--medium-lavender) !important;
-  border-color: var(--primary-teal) !important;
-  color: white !important;
-}
-
-/* Main content links */
 a {
-  color: var(--primary-teal) !important;
+  color: var(--teal);
+  text-decoration: none;
 }
 
 a:hover {
-  color: var(--dark-purple) !important;
+  text-decoration: underline;
 }
 
-/* Headings */
-h1 {
-  color: var(--dark-purple) !important;
-}
-
-h2 {
-  color: var(--primary-teal) !important;
-}
-
-h3, h4, h5, h6 {
-  color: var(--dark-purple) !important;
-}
-
-/* Content sections */
-.content h2 {
-  color: var(--primary-teal) !important;
-  border-bottom: 2px solid var(--light-lavender) !important;
-  padding-bottom: 0.5rem !important;
-}
-
-/* Research themes styling */
-ul li strong {
-  color: var(--dark-purple) !important;
-}
-
-/* Buttons and interactive elements */
-.btn, button {
-  background-color: var(--primary-teal) !important;
-  color: white !important;
-  border: 1px solid var(--primary-teal) !important;
-  padding: 0.5rem 1rem !important;
-  border-radius: 4px !important;
-  text-decoration: none !important;
-}
-
-.btn:hover, button:hover {
-  background-color: var(--dark-purple) !important;
-  border-color: var(--dark-purple) !important;
-}
-
-/* Footer */
-.site-footer {
-  background-color: var(--light-lavender) !important;
-  border-top: 3px solid var(--primary-teal) !important;
-  color: var(--dark-purple) !important;
-}
-
-.site-footer a {
-  color: var(--dark-purple) !important;
-}
-
-.site-footer a:hover {
-  color: var(--primary-teal) !important;
-}
-
-/* Sidebar/Gallery styling */
-.sidebar {
-  background-color: rgba(91, 154, 160, 0.05) !important;
-}
-
-/* Special academic elements */
-.publication {
-  border-left: 4px solid var(--primary-teal) !important;
-  padding-left: 1rem !important;
-  margin-bottom: 1.5rem !important;
-}
-
-.publication:hover {
-  background-color: var(--light-lavender) !important;
-  padding: 1rem !important;
-  border-radius: 4px !important;
-}
-
-/* People/Team sections */
-.person {
-  border: 1px solid var(--light-lavender) !important;
-  background-color: white !important;
-  transition: all 0.3s ease !important;
-}
-
-.person:hover {
-  border-color: var(--medium-lavender) !important;
-  box-shadow: 0 4px 8px rgba(98, 37, 105, 0.1) !important;
-}
-
-/* Course and CV sections */
-.course, .cv-section {
-  border-top: 2px solid var(--primary-teal) !important;
-  padding-top: 1rem !important;
-}
-
-/* Contact information */
-.contact-info {
-  background-color: var(--light-lavender) !important;
-  border: 1px solid var(--medium-lavender) !important;
-  padding: 1.5rem !important;
-  border-radius: 8px !important;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .site-nav ul {
-    background-color: var(--dark-purple) !important;
-  }
-  
-  .site-nav ul li a {
-    border-bottom: 1px solid var(--medium-lavender) !important;
-  }
+h1, h2, h3 {
+  color: var(--teal);
 }
