@@ -20,5 +20,3 @@ Our lab has trained numerous successful researchers who have gone on to position
 We welcome applications from motivated individuals interested in joining our research group. Please see our [Contact](/contact) page for information about current opportunities and application procedures.
 
 ---
-
-*The Academic theme will automatically display the people defined in your `_data/settings.yml` file below this content.*
