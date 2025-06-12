@@ -4,16 +4,21 @@ layout: home
 
 ## Welcome to the Dynamic & Adaptive Memory Lab
 
-Our research group focuses on [describe your main research area and mission]. We are part of the [Department Name] at [University Name].
-
 ### Research Interests
-
-Our lab investigates [research area 1], [research area 2], and [research area 3]. We use a combination of [methodologies/approaches] to address fundamental questions in [field].
+Our research explores  the processes that prioritise memory encoding and retrieval — from salient experiences to spontaneous reactivations — and how these processes change across the lifespan. We are part of the Andrew Mayes Centre for Cognitive Neuroscience at The University of Manchester.
 
 Key research themes include:
-- **Research Theme 1**: Brief description of this research direction
-- **Research Theme 2**: Brief description of this research direction  
-- **Research Theme 3**: Brief description of this research direction
+  - Adaptive Memory Formation: How do we prioritise what to remember? We investigate mechanisms by which salience, novelty, and neuromodulation influence memory encoding. Our work examines how these processes support the selection and stabilisation of important memories.
+  - Memory reactivation — the spontaneous replay of past experiences — plays a critical role in memory consolidation and decision making. We examine when and why this occurs, and how it may support flexible cognition and insight.
+  - Memory Across the Lifespan - How does memory change with age? We study how the dynamics of memory reactivation, prioritisation, and goal alignment are altered in healthy ageing, with the goal of understanding adaptive versus maladaptive changes.
+
+### Methods
+We use a multimodal approach to investigate memory, including:
+- Virtual Reality: To simulate naturalistic, immersive experiences for encoding and retrieval
+- Functional & Structural MRI:</strong> To study memory networks and neural dynamics
+- Intracranial EEG (iEEG): For high-resolution tracking of hippocampal processes
+- Eye-tracking & Pupillometry: To index attention, arousal, and neuromodulation
+- Computational Modelling: To test and formalise memory-related computations
 
 ### Recent Highlights
 
