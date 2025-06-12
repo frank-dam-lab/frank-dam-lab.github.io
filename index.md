@@ -26,6 +26,3 @@ Key research themes include:
 
 We are always looking for motivated researchers to join our group. If you are interested in [research areas], please see our [People](/people) page for information about current opportunities, or [contact us](/contact) directly.
 
----
-
-*This page showcases featured publications and recent news. The Academic theme will automatically display your featured publications from the publications data file below this content.*
