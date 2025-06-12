@@ -2,8 +2,8 @@ title: "Dynamic & Adaptive Memory Lab"
 email: frank.dam@university.ac.uk
 description: >-
   PI: Dr Darya Frank
-baseurl: ""
-url: "https://frank-dam-lab.github.io"
+baseurl: "https://frankmemorylab.github.io"
+url: ""
 
 markdown: kramdown
 highlighter: rouge
