@@ -7,7 +7,11 @@ baseurl: ""
 url: "https://frank-dam-lab.github.io"
 
 # Theme
+<<<<<<< HEAD
 #theme: academic-jekyll-theme
+=======
+theme: academic-jekyll-theme
+>>>>>>> cfb659c2295ab8188d09f7ee6af815ca23f1b806
 #remote_theme: LeNPaul/academic
 
 # Build settings
