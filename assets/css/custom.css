@@ -13,34 +13,73 @@
 
 /* === Base Styling === */
 body {
-  background-color: var(--bg-beige);
-  color: var(--text-color);
+  background-color: var(--bg-beige) !important;
+  color: var(--text-color) !important;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 2rem;
 }
 
-h1, h2, h3 {
-  color: var(--teal-dark);
-  margin-top: 1.5em;
-}
-
-a {
-  color: var(--teal);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--teal-light);
-  text-decoration: underline;
-}
-
 p {
   margin-bottom: 1em;
 }
 
-/* === Navbar / Header / Footer === */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--teal-dark) !important;
+  font-weight: 600;
+}
+
+/* === Links === */
+a {
+  color: var(--teal) !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--teal-light) !important;
+  text-decoration: underline;
+}
+
+/* === Bootstrap Button Overrides (if used) === */
+.btn-primary {
+  background-color: var(--accent) !important;
+  border-color: var(--accent) !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--teal-dark) !important;
+  border-color: var(--teal-dark) !important;
+}
+
+/* === Custom Button Style === */
+.button {
+  background-color: var(--accent);
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: var(--teal);
+}
+
+/* === Sections & Layouts === */
+.section {
+  background-color: white;
+  padding: 2rem;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* === Navbar & Footer === */
 .navbar,
 .footer {
   background-color: var(--teal-dark);
@@ -60,32 +99,7 @@ p {
   color: var(--teal-light);
 }
 
-/* === Buttons === */
-.button {
-  background-color: var(--accent);
-  color: white;
-  padding: 0.6em 1.2em;
-  border: none;
-  border-radius: 4px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.button:hover {
-  background-color: var(--teal);
-}
-
-/* === Sections & Cards === */
-.section {
-  margin-bottom: 3rem;
-  padding: 2rem;
-  background-color: white;
-  border: 1px solid var(--border-light);
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
-}
-
+/* === Horizontal Rules === */
 hr {
   border: none;
   border-top: 1px solid var(--border-light);
