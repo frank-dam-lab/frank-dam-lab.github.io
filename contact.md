@@ -19,8 +19,3 @@ If you are interested in joining our research group as a graduate student, pleas
 ### For Collaborators
 
 We are always interested in forming new collaborations with researchers in [related fields]. Please don't hesitate to reach out if you think there might be synergies between our research programs.
-
-
----
-
-*The Academic theme will automatically display contact information from your `_data/settings.yml` file below this content.*
