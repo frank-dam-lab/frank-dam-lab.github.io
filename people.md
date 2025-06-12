@@ -5,16 +5,7 @@ title: People
 
 ## Our Research Team
 
-The Frank Dam Lab is composed of dedicated researchers working at the forefront of [research field]. Our team includes faculty, postdoctoral researchers, graduate students, and undergraduate researchers.
-
-### Research Philosophy
-
-We believe in fostering a collaborative and inclusive environment where all team members can thrive. Our lab culture emphasizes:
-
-- **Collaborative Research**: Working together across different expertise areas
-- **Mentorship**: Supporting the growth and development of all team members  
-- **Innovation**: Pushing the boundaries of what's possible in [research field]
-- **Impact**: Conducting research that makes a difference in the world
+The DAM Lab is composed of dedicated researchers working at the forefront of [research field]. Our team includes faculty, postdoctoral researchers, graduate students, and undergraduate researchers.
 
 ### Alumni
 
