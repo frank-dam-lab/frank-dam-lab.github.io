@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## Welcome to the Frank Dam Lab
+## Welcome to the Dynamic & Adaptive Memory Lab
 
 Our research group focuses on [describe your main research area and mission]. We are part of the [Department Name] at [University Name].
 
