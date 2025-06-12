@@ -1,13 +1,29 @@
+/* === Teal + Beige Theme for Dynamic Memory Lab === */
 :root {
   --teal: #008080;
-  --light-bg: #f9fdfd;
-  --text-color: #222;
+  --teal-light: #20b2aa;
+  --teal-dark: #004d4d;
+
+  --bg-beige: #fdfaf6;
+  --border-light: #e6e1d9;
+  --text-color: #2b2b2b;
+
+  --accent: #ff6f61;
 }
 
+/* === Base Styling === */
 body {
-  background-color: var(--light-bg);
+  background-color: var(--bg-beige);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: var(--teal-dark);
+  margin-top: 1.5em;
 }
 
 a {
@@ -16,9 +32,73 @@ a {
 }
 
 a:hover {
+  color: var(--teal-light);
   text-decoration: underline;
 }
 
-h1, h2, h3 {
-  color: var(--teal);
+p {
+  margin-bottom: 1em;
+}
+
+/* === Navbar / Header / Footer === */
+.navbar,
+.footer {
+  background-color: var(--teal-dark);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar a,
+.footer a {
+  color: white;
+  font-weight: 500;
+}
+
+.navbar a:hover,
+.footer a:hover {
+  color: var(--teal-light);
+}
+
+/* === Buttons === */
+.button {
+  background-color: var(--accent);
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: var(--teal);
+}
+
+/* === Sections & Cards === */
+.section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  margin: 2rem 0;
+}
+
+/* === Responsive Tweaks === */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .section {
+    padding: 1rem;
+  }
 }
