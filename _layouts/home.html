@@ -8,7 +8,8 @@ layout: default
     {{ content }}
   </div>
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%">
+    <!-- Use site.url instead of the GitHub metadata object -->
+    <img src="{{ site.url }}/assets/img/home.jpg" alt="Home" width="100%">
   </div>
 </div>
 
@@ -18,7 +19,11 @@ layout: default
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
     {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+      <!-- post.url already starts with a /, so no extra slash between -->
+      <p>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+        &nbsp;–&nbsp;{{ post.date | date: "%B %-d, %Y" }}
+      </p>
     {% endfor %}
   </div>
 </div>
