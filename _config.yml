@@ -1,31 +1,19 @@
 title: "Frank Dam Lab"
 email: frank.dam@university.edu
 description: >-
-  Research laboratory focused on [your research area]. 
-  Brief description of your lab's mission and research focus.
+  Research laboratory focused on Dynamic & Adaptive Memory
 baseurl: ""
 url: "https://frank-dam-lab.github.io"
 
-# Theme
-<<<<<<< HEAD
-#theme: academic-jekyll-theme
-=======
-theme: academic-jekyll-theme
->>>>>>> cfb659c2295ab8188d09f7ee6af815ca23f1b806
-#remote_theme: LeNPaul/academic
-
-# Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:title/
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
