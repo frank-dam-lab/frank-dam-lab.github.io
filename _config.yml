@@ -8,7 +8,7 @@ url: "https://frank-dam-lab.github.io"
 
 # Theme
 #theme: academic-jekyll-theme
-remote_theme: LeNPaul/academic
+#remote_theme: LeNPaul/academic
 
 # Build settings
 markdown: kramdown
