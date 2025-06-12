@@ -11,7 +11,7 @@ We welcome inquiries from prospective students, collaborators, and anyone intere
 
 If you are interested in joining our research group as a graduate student, please include the following in your inquiry:
 
-- Your CV or resume
+- Your CV
 - A statement of research interests (1-2 pages)
 - Unofficial transcripts
 - Information about any prior research experience
