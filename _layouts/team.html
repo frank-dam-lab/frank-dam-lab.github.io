@@ -8,9 +8,9 @@ layout: default
 <div class="row row-cols-1 row-cols-md-3 g-4">
   {% for person in site.data.settings.people %}
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 team-card d-flex flex-column">
       {% if person.image %}
-      <img src="{{ site.github.url }}/{{ person.image }}" class="card-img-top" alt="{{ person.name }}">
+      <img src="{{ site.github.url }}/{{ person.image }}" class="card-img-top team-img" alt="{{ person.name }}">
       {% endif %}
       <div class="card-body">
         <h5 class="card-title">{{ person.name }} - {{ person.title }}</h5>
