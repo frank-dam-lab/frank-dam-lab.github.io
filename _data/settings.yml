@@ -5,10 +5,10 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 people:
-- {name: 'Darya Frank', title: 'PI', email: 'darya.frank@manchester.ac.uk', image: 'assets/img/primary-investigator.jpg', url: 'darya-frank'}
-- {name: 'Marta Garcia Huescar', title: 'PhD Student', institution: 'Universidad Politecnica de Madrid', image: 'assets/img/graduate-student.jpg', url: 'marta-garcia-huescar'}
-- {name: 'Aysha Janjua', title: 'MRes Student', url: 'aysha-janjua'}
-- {name: 'Zhiyun Qin', title: 'MRes Student', url: 'zhiyun-qin'}
+- {name: 'Darya Frank', title: 'PI', email: 'darya.frank@manchester.ac.uk', image: 'assets/img/primary-investigator.jpg'}
+- {name: 'Marta Garcia Huescar', title: 'PhD Student', institution: 'Universidad Politecnica de Madrid', image: 'assets/img/graduate-student.jpg'}
+- {name: 'Aysha Janjua', title: 'MRes Student'}
+- {name: 'Zhiyun Qin', title: 'MRes Student'}
 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
