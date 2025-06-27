@@ -1,8 +1,8 @@
 menu:
 - {name: 'team', url: '/people'}
+- {name: 'news & updates', url: '/news'}
 - {name: 'publications', url: '/publications'}
 - {name: 'contact', url: '/contact'}
-- {name: 'news & updates', url: '/news'}
 
 people:
 - {name: 'Darya Frank', title: 'Principal Investigator', email: 'darya.frank@manchester.ac.uk', image: 'assets/img/primary-investigator.jpg'}
