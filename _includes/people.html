@@ -8,7 +8,7 @@ layout: default
 {% for person in site.data.settings.people %}
 <div class="row g-5 mb-5">
   <div class="col-md-6">
-    <h5>{{ person.title }} - {{ person.name }}</h5>
+    <h5>{{ person.name }} - {{ person.title }} </h5>
     {% if person.email %}
     <p>Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
     {% endif %}
