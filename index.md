@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-### Welcome to the Adaptive & Dynamic Memory Lab
+### Welcome to the Dynamic & Adaptive Memory Lab
 Our research explores  the processes that prioritise memory encoding and retrieval — from salient experiences to spontaneous reactivations — and how these processes change across the lifespan. We are part of the Andrew Mayes Centre for Cognitive Neuroscience at The University of Manchester.
 
 #### Research Interests
