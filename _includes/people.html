@@ -9,12 +9,22 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-6">
     <h5>{{ person.title }} - {{ person.name }}</h5>
+    {% if person.email %}
+    <p>Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+    {% endif %}
     {% if person.institution %}
     <p>{{ person.institution }}</p>
     {% endif %}
+    {% if person.title == 'Post doc' and person.text %}
+    <p>{{ person.text }}</p>
+    {% endif %}
   </div>
+  {% unless person.title == 'MRes Student' %}
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="100%">
+    {% if person.image %}
+    <img src="{{ site.github.url }}/{{ person.image }}" alt="{{ person.name }}" width="100%">
+    {% endif %}
   </div>
+  {% endunless %}
 </div>
 {% endfor %}
