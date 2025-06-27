@@ -18,14 +18,10 @@ We use a multimodal approach to investigate memory, including:
 - Eye-tracking & Pupillometry: To index attention, arousal, and neuromodulation
 - Computational Modelling: To test and formalise memory-related computations
 
-#### Recent Highlights
-
-- **[Month Year]**: New grant awarded from [Funding Agency] for research on [topic]
-- **[Month Year]**: Paper accepted in [Journal Name] on [research topic]
-- **[Month Year]**: [Student Name] successfully defended their PhD thesis
-- **[Month Year]**: Lab presentation at [Conference Name] in [Location]
 
 ### Join Our Team
+Post-doctoral research associate: https://www.jobs.manchester.ac.uk/Job/JobDetail?JobId=32710
+Upcoming PhD positions: Autumn 2025
 
-We are always looking for motivated researchers to join our group. If you are interested in [research areas], please see our [Team](/people) page for information about current opportunities, or [contact us](/contact) directly.
+We are always looking for motivated researchers to join our group. If you are interested in any of the areas listed above, please [contact us](/contact).
 
