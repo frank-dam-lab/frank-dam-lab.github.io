@@ -1,11 +1,5 @@
 ---
-layout: people
-title: People
+layout: team
+title: Team
 ---
-
-## Lab Members
-
-- **PI**: Darya Frank
-- **PhD student**: Marta Garcia Huescar (Universidad Politecnica de Madrid)
-- **Master's students**: Aysha Janjua, Zhiyun Qin
 

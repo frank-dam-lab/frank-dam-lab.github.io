@@ -27,5 +27,5 @@ We use a multimodal approach to investigate memory, including:
 
 ### Join Our Team
 
-We are always looking for motivated researchers to join our group. If you are interested in [research areas], please see our [People](/people) page for information about current opportunities, or [contact us](/contact) directly.
+We are always looking for motivated researchers to join our group. If you are interested in [research areas], please see our [Team](/people) page for information about current opportunities, or [contact us](/contact) directly.
 
