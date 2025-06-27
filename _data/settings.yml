@@ -1,18 +1,14 @@
 menu:
-- {name: 'people', url: '/people'}
+- {name: 'team', url: '/people'}
 - {name: 'publications', url: '/publications'}
-- {name: 'courses', url: '/courses'}
 - {name: 'contact', url: '/contact'}
 
 people:
-- {name: 'Darya Frank', title: 'Royal Society URF', department: 'Andrew Mayes Centre for Cognitive Neuroscience', institution: 'The University of Manchester', email: 'darya.frank@manchester.ac.uk', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
-- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
-
-courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+- {name: 'Darya Frank', title: 'PI', email: 'darya.frank@manchester.ac.uk', image: 'assets/img/primary-investigator.jpg'}
+- {name: 'Marta Garcia Huescar', title: 'PhD Student', email: 'marta.garcia@ctb.upm.es', institution: 'Universidad Politecnica de Madrid', image: 'assets/img/graduate-student.jpg', text: 'Researches the functional correlates of superageing (co-supervised with Bryan Strange).'}
+- {name: 'Haoran Guan', title: 'PhD Student', email: 'haoran.guan@manchester.ac.uk', image: 'assets/img/graduate-student.jpg', text: 'Researches brain lateralisation and its affect in cognition across life span (co-supervised with Daniela Montaldi).'}
+- {name: 'Aysha Janjua', title: 'MRes Student'}
+- {name: 'Zhiyun Qin', title: 'MRes Student'}
 
 social:
 - {icon: 'github', link: 'https://github.com/frank-dam-lab'}

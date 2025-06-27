@@ -1,5 +1,5 @@
 ---
-layout: people
-title: People
+layout: team
+title: Team
 ---
 
