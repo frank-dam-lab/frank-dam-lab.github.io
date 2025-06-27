@@ -1,7 +1,6 @@
 menu:
 - {name: 'team', url: '/people'}
 - {name: 'publications', url: '/publications'}
-- {name: 'courses', url: '/courses'}
 - {name: 'contact', url: '/contact'}
 
 people:
@@ -9,11 +8,6 @@ people:
 - {name: 'Marta Garcia Huescar', title: 'PhD Student', email: 'marta.garcia@ctb.upm.es', institution: 'Universidad Politecnica de Madrid', image: 'assets/img/graduate-student.jpg'}
 - {name: 'Aysha Janjua', title: 'MRes Student'}
 - {name: 'Zhiyun Qin', title: 'MRes Student'}
-
-courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
 - {icon: 'github', link: 'https://github.com/frank-dam-lab'}
