@@ -12,3 +12,7 @@ body {
 body a {
   color: $linkColor
 }
+
+header > div a {
+  color: $bodyColor !important;
+}
