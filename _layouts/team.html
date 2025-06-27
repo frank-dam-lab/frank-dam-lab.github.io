@@ -5,28 +5,28 @@ layout: default
 {{ content }}
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Team</h3>
-{% for person in site.data.settings.people %}
-<div class="row g-5 mb-5">
-  <div class="col-md-6">
-    <h5>{{ person.name }} - {{ person.title }}</h5>
-    {% if person.email %}
-    <p>Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
-    {% endif %}
-    {% if person.institution %}
-    <p>{{ person.institution }}</p>
-    {% endif %}
-    {% if person.title == 'Post doc' or person.title == 'PhD Student' %}
-      {% if person.text %}
-      <p>{{ person.text }}</p>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {% for person in site.data.settings.people %}
+  <div class="col">
+    <div class="card h-100">
+      {% if person.image %}
+      <img src="{{ site.github.url }}/{{ person.image }}" class="card-img-top" alt="{{ person.name }}">
       {% endif %}
-    {% endif %}
+      <div class="card-body">
+        <h5 class="card-title">{{ person.name }} - {{ person.title }}</h5>
+        {% if person.email %}
+        <p class="card-text">Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+        {% endif %}
+        {% if person.institution %}
+        <p class="card-text">{{ person.institution }}</p>
+        {% endif %}
+        {% if person.title == 'Post doc' or person.title == 'PhD Student' %}
+          {% if person.text %}
+          <p class="card-text">{{ person.text }}</p>
+          {% endif %}
+        {% endif %}
+      </div>
+    </div>
   </div>
-  {% unless person.title == 'MRes Student' %}
-  <div class="col-md-6">
-    {% if person.image %}
-    <img src="{{ site.github.url }}/{{ person.image }}" alt="{{ person.name }}" width="100%">
-    {% endif %}
-  </div>
-  {% endunless %}
+  {% endfor %}
 </div>
-{% endfor %}
