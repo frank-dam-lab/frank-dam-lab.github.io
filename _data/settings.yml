@@ -6,7 +6,7 @@ menu:
 
 people:
 - {name: 'Darya Frank', title: 'PI', email: 'darya.frank@manchester.ac.uk', image: 'assets/img/primary-investigator.jpg'}
-- {name: 'Marta Garcia Huescar', title: 'PhD Student', institution: 'Universidad Politecnica de Madrid', image: 'assets/img/graduate-student.jpg'}
+- {name: 'Marta Garcia Huescar', title: 'PhD Student', email: 'marta.garcia@ctb.upm.es', institution: 'Universidad Politecnica de Madrid', image: 'assets/img/graduate-student.jpg'}
 - {name: 'Aysha Janjua', title: 'MRes Student'}
 - {name: 'Zhiyun Qin', title: 'MRes Student'}
 
