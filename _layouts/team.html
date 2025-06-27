@@ -15,8 +15,10 @@ layout: default
     {% if person.institution %}
     <p>{{ person.institution }}</p>
     {% endif %}
-    {% if person.title == 'Post doc' and person.text %}
-    <p>{{ person.text }}</p>
+    {% if person.title == 'Post doc' or person.title == 'PhD Student' %}
+      {% if person.text %}
+      <p>{{ person.text }}</p>
+      {% endif %}
     {% endif %}
   </div>
   {% unless person.title == 'MRes Student' %}
